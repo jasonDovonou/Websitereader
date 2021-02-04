@@ -16,6 +16,7 @@
 	<description>web page reader</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<mockito-version>3.5.13</mockito-version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -88,6 +89,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-inline</artifactId>
+			<scope>test</scope>
+		</dependency>
 
 	</dependencies>
 
